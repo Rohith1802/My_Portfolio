@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html {
+    height: 100%;
+}
+
+body{
+    background-color: #0E0F19;
+    height: 100%;
+    text-align: center;
+    
+}
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 0.1px solid rgb(29, 27, 27);
+    /* position: fixed; */
+
+}
+.navtext{
+    height: 80px;
+    width: 50%;
+    color:#F8C7CC;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navright{
+    height: 80px;
+    width: 50%;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navright a{
+    color: #F8C7CC;
+    opacity: 0.5;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.navright a:hover{
+    /* color:#81A684; */
+    opacity: 1;
+    /* font-size: 1.35rem; */
+    /* border: 0.1px solid #ffffff; */
+    padding: 3px 3px 3px 3px;
+}
+
+/* sidebar */
+
+.sidebar{
+    height: 100%;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right:0.1px solid rgb(29, 27, 27) ;
+    position: fixed;
+}
+
+.icon{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.icon a{
+    color: white;
+    opacity: 0.5;
+}
+
+.icon a:hover{
+    opacity: 1;
+}
+
+.content p{
+    font-size: 2rem;
+    color: white;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    height: 10px;
+    width: 300px;
+    background-color: aqua;
+    margin-top: 1.125rem;
+}
+.second_intro{
+    width: 250px;
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-text p{
+    font-size: 20rem;
+}
+
+.bg-text{
+    margin: 25rem;
+    z-index: 0;
+    opacity: 0.2;
+
+}
+
+
+.container{
+    width: 400px;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content : space-evenly;
+    align-items: center;
+    z-index: 2;
+    /* margin-bottom: 4rem; */
+    position: absolute;
+    flex-direction: column;
+    top: 40%;
+    left: 4%;
+}
+
+.project{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    
+    
+}
+.project-antah{
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 2rem;
+    left: -20%;
+}
+
+.antah{
+    background-image: url("images/antah4.jpeg");
+    background-size: cover;
+    opacity: 0.4;
+}
+.project-pluto{
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 2rem;
+    left: 60%;
+}
+
+.pluto{
+    margin-left: 3rem;
+    background-image: url("images/drone2.jpg");
+    background-size: cover;
+    opacity: 0.4;
+}
+.project-audify{
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 2rem;
+    left: 60%;
+}
+
+.audify{
+    background-image: url("images/audify3.avif");
+    background-size: cover;
+
+    opacity: 0.4;
+}
+
+.project-portfolio{
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 2rem;
+    left: 60%;
+}
+
+.portfolio{
+    background-image: url("images/portfolio.avif");
+    background-size: cover;
+    opacity: 0.4;
+}
+
+.project:hover{
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+}
+
+.antah-text{
+    width: 50%;
+    height: 30%;
+    position: relative;
+    z-index: 7;
+    text-align: left;
+    position: relative;
+    left: 10%;
+    visibility: visible;
+    
+}
+.pluto-text{
+    width: 50%;
+    height: 30%;
+    position: relative;
+    z-index: 7;
+    text-align: left;
+    position: relative;
+    left: 10%;
+    visibility: visible;
+    
+}
+.audify-text{
+    width: 50%;
+    height: 30%;
+    position: relative;
+    z-index: 7;
+    text-align: left;
+    position: relative;
+    left: 10%;
+    visibility: visible;
+    
+}
+.portfolio-text{
+    width: 50%;
+    height: 30%;
+    position: relative;
+    z-index: 7;
+    text-align: left;
+    position: relative;
+    left: 10%;
+    visibility: visible;
+    
+}
+
+.antah-text p , ul {
+    font-size: 1rem;
+    color: white;
+}
+
+.antah-text h3{
+    font-size: 3rem;
+    color: white;
+}
+
+.antah-text h4{
+    font-size: 1.75rem;
+    color: aqua;
+}
+.pluto-text p , ul {
+    font-size: 1rem;
+    color: white;
+}
+
+.pluto-text h3{
+    font-size: 3rem;
+    color: white;
+}
+
+.pluto-text h4{
+    font-size: 1.75rem;
+    color: aqua;
+}
+.audify-text p , ul {
+    font-size: 1rem;
+    color: white;
+}
+
+.audify-text h3{
+    font-size: 3rem;
+    color: white;
+}
+
+.audify-text h4{
+    font-size: 1.75rem;
+    color: aqua;
+}
+.portfolio-text p , ul {
+    font-size: 1rem;
+    color: white;
+}
+
+.portfolio-text h3{
+    font-size: 3rem;
+    color: white;
+}
+
+.portfolio-text h4{
+    font-size: 1.75rem;
+    color: aqua;
+}
+
+
+    
+.antah-hidden{
+    visibility: hidden;
+}
+
+.project-antah:hover{
+    .antah-hidden{
+        visibility: visible;
+    }
+}
+.pluto-hidden{
+    visibility: hidden;
+}
+
+.project-pluto:hover{
+    .pluto-hidden{
+        visibility: visible;
+    }
+}
+.audify-hidden{
+    visibility: hidden;
+}
+
+.project-audify:hover{
+    .audify-hidden{
+        visibility: visible;
+    }
+}
+.portfolio-hidden{
+    visibility: hidden;
+}
+
+.project-portfolio:hover{
+    .portfolio-hidden{
+        visibility: visible;
+    }
+}
+
+
+
